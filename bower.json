@@ -1,0 +1,16 @@
+{
+  "name": "NIWA/Notify",
+  "version": "0.0.1",
+  "main": "dist/notify.js",
+  "ignore": [],
+  "dependencies": {
+    "jquery": ">=1.10.2",
+    "underscore": "~1.5.2"
+  },
+  "devDependencies": {
+    "jquery-mockjax": "~1.5.2",
+    "angular": "~1.4.7",
+    "angular-route": "~1.4.7",
+    "angular-mocks": "~1.4.7"
+  }
+}
