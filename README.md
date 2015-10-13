@@ -12,6 +12,7 @@ You will need to
 * import the JS files to your project
 * set the correct URL in the notify service
 ' $http.get('/notifyProxy.php').then(function (response) { ...'
+* Add the directive to your page
 
 That's it.
 
