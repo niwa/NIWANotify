@@ -6,12 +6,10 @@ notify.directive('notifyMessages', [ function() {
 
     }
 
-
-
     return {
         restrict: 'EA',
         link: link,
-        template: '<div class="panel"><div class="panel-heading bg-warning"><span class="glyphicon glyphicon-wrench"> </span>{{notify_message}}</div></div>',
+        template: '<div  ng-if="notify_message" class="panel"><div class="panel-heading bg-{{notify_status}}"><span class="glyphicon glyphicon-wrench"> </span>{{notify_message}}</div></div>',
         controller: 'notifyController'
     }
 }])
