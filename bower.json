@@ -1,5 +1,5 @@
 {
-  "name": "NIWA/Notify",
+  "name": "NIWANotify",
   "version": "0.0.1",
   "main": "dist/notify.js",
   "ignore": [],

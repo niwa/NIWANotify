@@ -34,7 +34,7 @@ notify
                             status = 'danger';
                             break;
                         default:
-                            status = 'ok';
+                            status = appstatus;
                             break;
                     }
                     var appMessage = '';
